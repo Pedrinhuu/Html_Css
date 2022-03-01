@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+
+    background-color: rgb(185, 216, 153);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+
+    color: #59753d;
+}
+
+h2{
+
+    color: #2e4616;
+}
+
+h1#principal{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aliceblue;
+    background-color: #325c08;
+}
+
+.basico{
+    font-style: italic;
+    font-weight: bold;
+}

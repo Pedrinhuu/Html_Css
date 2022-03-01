@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse ad similique, non reprehenderit quibusdam tempore nesciunt praesentium reiciendis mollitia commodi sequi numquam fugit consectetur necessitatibus deserunt explicabo id nulla adipisci.</p>
+
+    <picture>
+
+        <!--Aumentar e diminuir a imagem. Lembrar de trocar para MAX-width-->
+        <source media="(max-width: 750px)" srcset="imagens/foto-.png" type="image/png"> 
+        <source media="(max-width: 1050px)" srcset="imagens/foto+-.png" type="image/png" >
+        <img src="imagens/foto+.png" alt="fotoGrande">
+
+    </picture>
+    
+    <h1>Reproduzindo Áudio</h1>
+
+    <!--Modo 1 de inserir-->
+
+    <audio src="midias/Smoke Jacket Blues - TrackTribe.mp3" preload="metadata" controls ></audio> <br>
+    
+
+
+    <!-- auto play -> começa assim que abrir o site
+        loop -> assim que acabar, ele volta renicia
+        controls -> mostrar controles
+        
+        MPEG / OGG / WAV -> tipos de midias
+
+        Preload
+            - metadata -> carrega algumas informações da midia
+            - nome -> não carrega nada, só quando aperta play
+            - auto -> carrega full
+    
+    -->
+
+
+    <!-- Modo 2 de inserir -->
+    <p>
+        <audio preload="metadata" loop controls>
+            <source src="midias/Smoke Jacket Blues - TrackTribe.mp3" type="audio/mpeg">
+            <source src="midias/Smoke Jacket Blues - TrackTribe.ogg" type="audio/ogg">
+            <source src="midias/Smoke Jacket Blues - TrackTribe.wav" type="audio/wav">
+            <p>Seu navegador não suporta o aúdio<a href="midias/Smoke Jacket Blues - TrackTribe.mp3"> clique aqui</a> para baixar.</p>
+        </audio>
+    </p>
+    
+</body>
+</html>

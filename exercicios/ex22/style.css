@@ -1,0 +1,31 @@
+.quadrado{
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+    width: 300px;
+    height: 300px;
+}
+
+
+#q1{
+    background-color: aqua;
+    
+
+
+}
+
+#q2{
+    background-image: linear-gradient(to bottom, yellow, red);
+    
+
+}
+
+
+#q3{
+    background-image: url('img/pattern001.png');
+
+
+
+
+}

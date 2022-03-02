@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(img/wallpaper001.jpg) ;/*add imagem*/
+    background-repeat: no-repeat;/*Não repetir a imagem...*/
+
+
+}
